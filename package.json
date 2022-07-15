@@ -4,7 +4,7 @@
   "description": "one percent tracker app",
   "main": "index.js",
   "engines": {
-    "node": "15.x"
+    "node": "16.x"
   },
   "dependencies": {
     "abab": "^2.0.6",
