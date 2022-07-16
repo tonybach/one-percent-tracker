@@ -1,5 +1,6 @@
 import { useState } from "react";
 import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
 import React from "react";
 
 export default function TaskForm({ tasks, setTasks }) {
@@ -24,7 +25,9 @@ export default function TaskForm({ tasks, setTasks }) {
         value={textValue}
         onChange={handleTaskInput}
       />
-      <input type="submit" value="Track it!" />
+      <Button type="submit" variant="contained">
+        Track it!
+      </Button>
     </form>
   );
 }
